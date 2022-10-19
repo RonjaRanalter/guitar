@@ -21,7 +21,7 @@ public enum Wood {
       case ADIRONDACK:
         return "Adirondack";
       case MAHOGANY:
-        return "Mahagony";
+        return "Mahogany";
       case MAPLE:
         return "Maple";
       case CEDAR:
@@ -31,7 +31,7 @@ public enum Wood {
       case COCOBOLO:
         return "Cocobolo";
       default:
-        return this + "fehlt in der toString-Methode";
+        return this + " " + "is missing in the toString-method";
     }
   }
 }

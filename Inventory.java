@@ -5,8 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
 
-
-
 public class Inventory {
   private List guitars;
   List<Guitar> guitarResult = new ArrayList<Guitar>();

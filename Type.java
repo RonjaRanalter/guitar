@@ -10,7 +10,7 @@ public enum Type {
       case ACOUSTIC:
         return "accoustic";
       default:
-        return this + "fehlt in der toString-Methode";
+        return this + " " + "is missing in the toString-method";
     }
   }
 }

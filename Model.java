@@ -13,12 +13,12 @@ public enum Model {
 
     public String toString() {
         switch (this) {
+            case CJ:
+                return "Cj";
             case STRATOCASTOR:
                 return "Stratocastor";
             case D_18:
                 return "D-18";
-            case CJ:
-                return "Cj";
             case OM_28:
                 return "Om-28";
             case LES_PAUL:
@@ -28,13 +28,13 @@ public enum Model {
             case SJ:
                 return "Sj";
             case CATHEDRAL:
-                return "Cathedrale";
+                return "Cathedral";
             case SG_61_REISSUE:
                 return "SG '61 Reissue";
             case D_28:
                 return "D-28";
             default:
-                return this + "fehlt in der toString-Methode";
+                return this + " " + "is missing in the toString-method";
         }
     }
 }

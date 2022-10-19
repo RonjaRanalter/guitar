@@ -24,21 +24,27 @@ public class Guitar {
   public double getPrice() {
     return price;
   }
+
   public void setPrice(float newPrice) {
     this.price = newPrice;
   }
+
   public Builder getBuilder() {
     return builder;
   }
+
   public Model getModel() {
     return model;
   }
+
   public Type getType() {
     return type;
   }
+
   public Wood getBackWood() {
     return backWood;
   }
+
   public Wood getTopWood() {
     return topWood;
   }
