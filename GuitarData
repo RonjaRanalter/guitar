@@ -1,0 +1,29 @@
+public class GuitarData {
+
+  private String serialNumber;
+  private double price;
+
+  public String getSerialNumber() {
+    return serialNumber;
+  }
+
+  public void setSerialNumber(String serialNumber) {
+    this.serialNumber = serialNumber;
+  }
+
+  public double getPrice() {
+    return price;
+  }
+
+  public void setPrice(double price) {
+    this.price = price;
+  }
+}
+// public Guitar getGuitar(String serialNumber) {
+//     for (Iterator i = guitars.iterator(); i.hasNext();) {
+//       Guitar guitar = (Guitar) i.next();
+//       if (guitar.getSerialNumber().equals(serialNumber)) {
+//         return guitar;
+//       }
+//     }
+//     return null;

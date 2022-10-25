@@ -1,5 +1,4 @@
 public enum Wood {
-
   INDIAN_ROSEWOOD,
   ALDER,
   SITKA,
@@ -31,7 +30,7 @@ public enum Wood {
       case COCOBOLO:
         return "Cocobolo";
       default:
-        return this + " " + "is missing in the toString-method";
+        return this + " is missing in the toString-method";
     }
   }
 }

@@ -1,5 +1,4 @@
 public enum Type {
-
   ELECTRIC,
   ACOUSTIC;
 
@@ -10,7 +9,7 @@ public enum Type {
       case ACOUSTIC:
         return "accoustic";
       default:
-        return this + " " + "is missing in the toString-method";
+        return this + " is missing in the toString-method";
     }
   }
 }

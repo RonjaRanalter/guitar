@@ -1,5 +1,4 @@
 public enum Builder {
-
   COLLINGS,
   FENDER,
   MARTIN,
@@ -25,7 +24,7 @@ public enum Builder {
       case PRS:
         return "Prs";
       default:
-        return this + " " + "is missing in the toString-method";
+        return this + " is missing in the toString-method";
     }
   }
 }
